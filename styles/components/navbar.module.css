@@ -1,0 +1,42 @@
+.nav {
+  background: var(--white-color);
+  height: 80px;
+  position: sticky;
+  top: 0;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding: 16px;
+  width: 100%;
+}
+
+.logo {
+  height: 48px;
+}
+
+.leftGroup {
+  align-items: center;
+  display: flex;
+}
+
+.linkList {
+  align-items: center;
+  display: flex;
+}
+
+.linkListItem {
+  margin-left: 16px;
+}
+
+.linkListItem:first-child {
+  margin-left: 0;
+}
+
+.socialLinks {
+  margin-left: 40px;
+}
