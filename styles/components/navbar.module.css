@@ -1,5 +1,7 @@
 .nav {
-  background: var(--white-color);
+  background: var(--white-color-transparent);
+  border-bottom: 1px solid var(--black-color-transparent);
+  backdrop-filter: blur(8px);
   height: 80px;
   position: sticky;
   top: 0;
@@ -39,4 +41,10 @@
 
 .socialLinks {
   margin-left: 40px;
+}
+
+@media (max-width: 540px) {
+  .socialLinks {
+    margin-left: 24px;
+  }
 }

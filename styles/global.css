@@ -1,11 +1,20 @@
 :root {
   --green-color: #00a859;
+  --green-color-transparent: rgba(0, 168, 90, 0.5);
   --yellow-color: #ffcc29;
   --blue-color: #3e4095;
   --white-color: #ffffff;
+  --white-color-transparent: rgba(255, 255, 255, 0.8);
   --black-color: #000000;
+  --black-color-transparent: rgba(0, 0, 0, 0.2);
+
+  --green-shadow: 0 4px 16px var(--green-color-transparent);
+  --black-shadow: 0 4px 16px var(--black-color-transparent);
+
+  --border-radius: 8px;
 
   --max-width: 1024px;
+  --max-content-width: 720px;
 
   font-size: 62.5%;
 }
