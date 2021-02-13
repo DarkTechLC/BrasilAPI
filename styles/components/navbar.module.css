@@ -1,10 +1,11 @@
 .nav {
   background: var(--white-color-transparent);
-  border-bottom: 1px solid var(--black-color-transparent);
+  border-bottom: var(--border);
   backdrop-filter: blur(8px);
   height: 80px;
   position: sticky;
   top: 0;
+  z-index: 5;
 }
 
 .wrapper {
